@@ -178,7 +178,7 @@ namespace Facebook.Unity.Editor
             if (Application.platform == RuntimePlatform.WindowsEditor)
             {
                 proc.StartInfo.FileName = "cmd";
-                proc.StartInfo.Arguments = @"/C" + command;
+                proc.StartInfo.Arguments = @"/C " + command;
             }
             else
             {
